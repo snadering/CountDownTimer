@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  background: #DDFFE7;
+  color: #29A0B1;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.timer-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.timer-display {
+  margin-bottom: 20px;
+  background: #29A0B1;
+  border: solid;
+  border-radius: 25px;
+}
+.timer-display h2 {
+  background: #29A0B1;
+  color: #DDFFE7;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin: 0 10px;
+}
+
+.input-group input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #DDFFE7;
+  background: #98D7C2;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 10px;
+  border: none;
+  background: #29A0B1;
+  color: #DDFFE7;
+}
